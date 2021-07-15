@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FireBaseOne</title>
+    <!-- /////////////////////////////////Start///////////////////////////////////////-->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-darabase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-auth.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyBIwKQENZ-gDjgRqmJqLy_63NdKAF_NS0Y",
+    authDomain: "vipp-a7ca3.firebaseapp.com",
+    projectId: "vipp-a7ca3",
+    storageBucket: "vipp-a7ca3.appspot.com",
+    messagingSenderId: "763710859487",
+    appId: "1:763710859487:web:240e79b2a780877e7b616a",
+    measurementId: "G-YLMYRM7DEC"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+  </script>
+ <!-- /////////////////////////////////Close///////////////////////////////////////-->
+
+</head>
+<body>
+    
+
+
+<div id="errors"></div>
+<div id="accountInformation"></div>
+
+
+    <div id="consext">
+        <div class="middle">
+        <div class="row mb-3">
+          <label for="inputEmail3" class="col-sm-1 col-form-label">Email</label>
+          <div class="col-sm-5">
+            <input type="email" class="form-control" id="inputEmail3">
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label for="inputPassword3" class="col-sm-1 col-form-label">Password</label>
+          <div class="col-sm-5">
+            <input type="password" class="form-control" id="inputPassword3">
+          </div>
+        </div>
+        <button  class="btn btn-primary" onclick="accountRegister()">Sign in</button>
+        <button  class="btn btn-primary" onclick="accountLogin()">Login</button>
+        <button class="btn btn-primary" onclick="forgetPassword()">Forget Password</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
