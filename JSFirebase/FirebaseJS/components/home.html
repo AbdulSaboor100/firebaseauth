@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
+      <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-firestore.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyBIwKQENZ-gDjgRqmJqLy_63NdKAF_NS0Y",
+    authDomain: "vipp-a7ca3.firebaseapp.com",
+    projectId: "vipp-a7ca3",
+    storageBucket: "vipp-a7ca3.appspot.com",
+    messagingSenderId: "763710859487",
+    appId: "1:763710859487:web:240e79b2a780877e7b616a",
+    measurementId: "G-YLMYRM7DEC"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+  </script>
+</head>
+<body>
+
+
+
+    <h1>Home Page</h1>
+    <button onclick="logOut()">LogOut</button>
+    <script src="../app.js"></script>
+</body>
+</html>
