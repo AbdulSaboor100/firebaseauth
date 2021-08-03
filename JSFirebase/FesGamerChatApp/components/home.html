@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js"></script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <center><h1>Fes Chat</h1></center>
+
+    <input type="text"  id="searchUser" >
+    <button onclick="searchBar()">Search</button>
+    <div id="container">
+        <div id="divChat">
+            <input type="text"  id="divChatInp"><button id="sendMessageBtn" onclick="saveMessageToFirestore()">Send</button>
+        </div>
+    </div>
+<br>
+<br><br>    
+
+    <button onclick="logOut()">LogOut</button>
+
+
+    <script src="../app.js"></script>
+</body>
+</html>

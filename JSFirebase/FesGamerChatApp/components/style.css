@@ -1,0 +1,38 @@
+.divChat{
+    background-color: burlywood;
+    position: absolute;
+    bottom: 90px;
+    height:  400px;
+    width: 60%;
+    margin-left: 450px;
+    color: black;   
+}
+.chatInp{
+    width: 500px;
+    height: 40px;
+    margin-top: 340px;
+    margin-left: 125px;
+    font-size: 20px;
+}
+#sendMessageBtn{
+    position: absolute;
+    bottom: 17.5px;
+    right: 60px;
+    background-color: black;
+    color: red;
+    height: 40px;
+    width: 7%;
+}
+
+.chatpara1{
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+.chatpara2{
+    font-size: 20px;
+    position: absolute;
+    top: 30px;
+    right: 40px;
+}
